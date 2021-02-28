@@ -1792,9 +1792,17 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .main-cities__title h3{
+        margin-bottom: 12px;
+    }
     .main-cities__list{
         width: 100%;
         text-align: center;
+        padding-bottom: 0;
+    }
+    .main-cities__ul{
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
     .main-last__calculate-text{
         width: 100%;
