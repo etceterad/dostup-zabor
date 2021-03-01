@@ -27,6 +27,12 @@ $(function() {
         .addClass('active').siblings().removeClass('active')
         .closest('.main-works').find('div.main-works__slider').removeClass('active').eq($(this).index()).addClass('active');
     });
+    $('ul.main-serv__tabs-btns').on('click', 'li:not(.active-tab)', function(e) {
+        e.preventDefault();
+      $(this)
+        .addClass('active-tab').siblings().removeClass('active-tab')
+        .closest('.main-serv').find('.main-serv__tabs-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
+    });
     $('.popup-btn').magnificPopup();
     $('.header-info__hamburger').click( function (){
         $('.hidden-menu').addClass('show-menu');
