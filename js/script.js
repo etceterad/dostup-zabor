@@ -33,6 +33,30 @@ $(function() {
         .addClass('active-tab').siblings().removeClass('active-tab')
         .closest('.main-serv').find('.main-serv__tabs-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
     });
+    $('ul.main-block-tabs__ul').on('click', 'li:not(.active-tab)', function(e) {
+        e.preventDefault();
+      $(this)
+        .addClass('active-tab').siblings().removeClass('active-tab')
+        .closest('.main-price').find('.main-price__block-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
+    });
+    $('ul.main-block-evro__ul').on('click', 'li:not(.active-tab)', function(e) {
+        e.preventDefault();
+      $(this)
+        .addClass('active-tab').siblings().removeClass('active-tab')
+        .closest('.evro').find('.main-price__block-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
+    });
+    $('ul.main-block-rabitsa__ul').on('click', 'li:not(.active-tab)', function(e) {
+        e.preventDefault();
+      $(this)
+        .addClass('active-tab').siblings().removeClass('active-tab')
+        .closest('.rabitsa').find('.main-price__block-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
+    });
+    $('ul.main-block-panel__ul').on('click', 'li:not(.active-tab)', function(e) {
+        e.preventDefault();
+      $(this)
+        .addClass('active-tab').siblings().removeClass('active-tab')
+        .closest('.panel').find('.main-price__block-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
+    });
     $('.popup-btn').magnificPopup();
     $('.header-info__hamburger').click( function (){
         $('.hidden-menu').addClass('show-menu');
