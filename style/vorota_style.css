@@ -1526,6 +1526,14 @@ body{
     .main-works__testimonials{
         display: block;
     }
+    .main-price__block-tabs ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-block-tabs__item{
+        width: 100%;
+        padding-bottom: 15px;
+    }
     .main-testimonials__button-first{
         margin-bottom: 40px;
     }
