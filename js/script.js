@@ -37,7 +37,7 @@ $(function() {
         e.preventDefault();
       $(this)
         .addClass('active-tab').siblings().removeClass('active-tab')
-        .closest('.main-price').find('.main-price__block-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
+        .closest('.main-price__block').find('.main-price__block-content').removeClass('active-tab').eq($(this).index()).addClass('active-tab');
     });
     $('ul.main-block-evro__ul').on('click', 'li:not(.active-tab)', function(e) {
         e.preventDefault();

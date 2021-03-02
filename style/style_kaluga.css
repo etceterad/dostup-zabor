@@ -19,6 +19,9 @@ body{
     margin: 0;
     font-family: "Gotham Pro",sans-serif,sans-serif;
 }
+.header-top__logo a{
+    text-decoration: none;
+}
 .main-wrapper{
     overflow: hidden;
     position: relative;
