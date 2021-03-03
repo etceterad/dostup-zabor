@@ -554,13 +554,6 @@ body{
 .header-list__contacts{
     border-right: 1px solid #d6ccc1;
 }
-
-.main-title{
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: 900;
-    text-transform: uppercase;
-}
 .main-links{
     padding-top: 25px;
     font-size: 14px;
@@ -573,117 +566,30 @@ body{
 .main-links span{
     padding-left: 5px;
 }
-.main-price__block{
-    text-align: center;
-    padding-top: 40px;
-}
-.main-price__block-title{
-    font-size: 1.78571rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin-bottom: .5rem;
-    line-height: 1.2;
-    outline: 0!important;
-    text-decoration: none;
-    background-color: transparent;
-    text-align: center;
-    width: 100%;
-    color: #000;
-}
-.main-price__block-title:hover{
-    color: #ce1111;
-    transition: all 0.15s ease;
-}
-.main-price__block-tabs{
-    width: 100%;
-    padding-bottom: 25px;
-}
-.main-price__block-tabs ul{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 25px;
-    padding-top: 25px;
-}
-.main-block-tabs__item{
-    width: 24%;
-    list-style: none;
-}
-.main-block-tabs__item button{
-    color: #4d453c;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    border-radius: .71429rem;
-    justify-content: center;
-    line-height: 1;
-    align-items: center;
-    -webkit-box-pack: center;
-    height: 64px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color: #fff;
-    border: 1px solid #e9d1b4;
-    cursor: pointer;
-}
-.main-block-tabs__item button:hover{
-    color: #fff;
-    background: linear-gradient(180deg,#d41c1c 0,#e94545 100%);
-    transition: all 0.6s ease;
-}
-.main-block-tabs__item button:focus{
-    outline: none;
-}
-.active-tab button{
-    color: #fff;
-    background: linear-gradient(180deg,#d41c1c 0,#e94545 100%);
-}
-.main-price__block-content{
-    display: none;
-}
-.main-price__block-table{
-    width: 100%;
-    border-spacing: 2px;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.main-block-table__column{
-    padding: .75rem 0;
-    border-top: 1px solid #dee2e6;
-    width: 16%;
-}
-.main-block-table__head .main-block-table__column{
-    border-bottom: 2px solid #dee2e6;
-}
-.active-tab{
-    display: block;
-}
-.main-catalog{
-    margin-top: 55px;
+.main-calculators{
+    margin-top: 25px;
     margin-bottom: 45px;
 }
-.main-catalog__title{
+.main-calculators__title{
     font-weight: 900;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 2rem;
 }
-.main-catalog__text{
+.main-calculators__text p{
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     margin-bottom: 14px;
 }
-.main-catalog__products{
+.main-calculators__block{
+    padding-top: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     width: 100%;
 }
-.main-product__block{
+.main-calculators__block-item{
     width: 95%;
     height: 352px;
     border-radius: 10px;
@@ -691,24 +597,25 @@ body{
     margin-bottom: 30px;
     position: relative;
 }
-.main-product__img{
+.main-calculators__img{
     padding-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-.main-product__img img{
+.main-calculators__img img{
     width: 95%;
     height: 220px;
     border-radius: 10px;
 }
-.main-product__name a{
+.main-calculators__name a{
     color: #ce1111;
     text-decoration: none;
     background-color: transparent;
     outline: 0!important;
     font-size: 1.14286rem;
     font-weight: 700;
+    text-transform: uppercase;
 }
-.main-product__btn{
+.main-calculators__btn{
     margin-right: auto;
     margin-left: auto;
     position: absolute;
@@ -722,152 +629,89 @@ body{
     cursor: pointer;
     left: 5%;
 }
-.main-product__btn a{
+.main-calculators__btn a{
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
-.main-product__btn:hover{
+.main-calculators__btn:hover{
     background: #fff;
     border-color: #ce1111;
     transition: all 0.5s ease;
 }
-.main-product__btn:hover a{
+.main-calculators__btn:hover a{
     color:  #000;
     transition: all 0.5s ease;
 }
 .last-block{
     grid-column: 2;
 }
-.main-works{
-    text-align: center;
-    padding-top: 55px;
-}
-.main-works__content{
-    margin-bottom: 100px;
-}
-.main-works__title h2{
-    text-align: center;
-    font-weight: 900;
-    font-size: 1.78571rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
-.main-works__tabs-list{
-    display: inline-block;
-    list-style: none;
-    width: 100%;
-    padding-left: 0;
-}
-.main-works__list-item{
-    display: inline-block;
-}
-.main-works__list-item a{
-    color: #000;
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: 13px;
-    line-height: 20px;
-}
-.main-works__list-item a:hover{
-    border-bottom: 3px solid #ce1111;
-    text-decoration: none;
-    color: #000;
-}
-.main-works__list-item.active a{
-    border-bottom: 3px solid #ce1111;
-}
-.main-works__tabs-list .active{
-    display: inline;
-}
-.main-works__slider{
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.main-works__slider-item{
-    width: 95%;
-    height: 225px;
-}
-.slider-item__img{
-    width: 100%;
-    height: 156px;
-}
-.main-works__slider{
-    display: none !important;
-}
-.main-works__slider.active{
-    display: flex !important;
-}
-.main-works__testimonials{
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: space-between;
-    height: 90px;
-    margin-bottom: 85px;
-}
-.main-tags{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-.main-tags__item{
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    padding: 8px;
-    border: 1px solid #e9d1b4;
-    border-radius: 5px;
-    margin: 2px;
-    width: max-content;
-    display: inline-block;
-}
-.main-tags__item:hover{
-    border-color: #ce1111;
-    transition: all 0.2s ease;
-}
-.main-tags__less{
-    color: #ce1111;
-}
-.main-tags__s-more{
-    color: #ce1111;
-}
-.main-why{
-    padding-top: 55px;
-    padding-bottom: 45px;
-    text-align: center;
-    background: linear-gradient(180deg,#dde3de 0,#e4d9cc 100%);
-}
-.main-why__title h2{
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 1.78571rem;
-    max-width: 100%!important;
-    text-align: center!important;
-}
-.main-why__content{
+.main-personal__form-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
-.main-why__block{
-    padding-top: 15px;
-    padding-bottom: 15px;
+.main-personal__label{
+    margin-bottom: .25rem!important;
+    font-size: 11px;
 }
-.main-why__name h4{
+.main-form__personal-data input{
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    outline: 0!important;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dde2dd;
+}
+.main-form__personal-info{
+    padding-left: 25px;
+}
+.main-personal-info__text textarea{
+    outline: 0!important;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dde2dd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.main-personal-info__btns{
+    display: flex;
+    justify-content: space-between;
+}
+.main-personal-btns__check{
+    padding-top: 20px;
+}
+.main-personal-btns__item{
+    width: 30%;
+}
+.main-personal-btns__item button{
+    cursor: pointer;
     margin-top: 10px;
-    font-size: 1.28571rem;
+    width: 100%;
+    display: block;
+    background: linear-gradient(180deg,#d41c1c 0,#e94545 100%);
+    color: #fff;
+    text-align: center;
+    user-select: none;
+    text-decoration: none!important;
     font-weight: 700;
-    color: #ce1111!important;
-    margin-bottom: .5rem;
-    line-height: 1.2;
+    border: 1px solid transparent;
+    padding: .525rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
 }
-.main-why__text p{
-    font-size: 14px;
-    font-weight: 400;
+.main-personal-btns__item button:hover{
+    background: #fff;
+    color: #ce1111;
+    transition: all 0.6s ease-out;
+    border-color: #ce1111;
 }
 .main-last{
     margin-top: 80px;
@@ -892,41 +736,9 @@ body{
     justify-content: space-between;
     width: 100%;
 }
-.main-last__calculate{
-    width: 31%;
-    text-align: center;
-    height: 400px;
-    border: 5px solid #4d453c;
-}
-.main-calculate__title{
-    font-size: 1.78571rem;
-    line-height: 1.2;
-    margin-block-start: 0.8em;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-.main-calculate__btn{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    border: 1px solid transparent;
-    padding: 10px 50px;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 10px;
-    background: linear-gradient(180deg,#d41c1c 0,#e94545 100%);
-    margin-bottom: 30px;
-}
-.main-calculate__btn:hover{
-    background: #fff;
-    border-color: #ce1111;
-    color: #ce1111;
-}
-.main-calculate__img{
-    margin-top: 38px;
-}
+
 .main-last__call{
-    width: 65%;
+    width: 100%;
     height: 400px;
     position: relative;
     border: 5px solid #4d453c;
@@ -1010,7 +822,7 @@ body{
 }
 .main-call__img{
     position: absolute;
-    left: 364px;
+    left: 664px;
     top: -127px;
 }
 .main-call__img img{
@@ -1243,72 +1055,20 @@ body{
     .header-nav{
         display: none;
     }
-    .header-offer{
-        margin-top: 0;
-    }
-    .header-offer__info{
-        width: 50%;
-        position: relative;
-    }
-    .header-offer__title{
-        margin-top: 0;
-    }
     .header-top{
         padding-bottom: 0;
     }
     .header-offer__advantages{
         width: 100%;
     }
-    .header-advantages__block{
-        margin-top: 300px;
-        width: 33%;
-        height: 400px;
+    .main-personal-info__btns{
+        flex-direction: column;
     }
-    .header-offer__img img{
-        width: 450px;
-        position: absolute;
-        right: -30px;
-        top: 100px;
+    .main-personal-btns__check{
+        padding-top: 10px;
     }
-    .main-catalog__products{
-        grid-template-columns: 1fr 1fr;
-    }
-    .main-product__block{
-        width: 95%;
-    }
-    .main-works__testimonials{
-        width: 80%;
-        margin-bottom: 0;
-    }
-    .main-works__content{
-        margin-bottom: 20px;
-    }
-    .main-calc{
-        height: 1000px;
-    }
-    .main-calc__form{
-        width: 65%;
-        text-align: left;
-    }
-    .main-form-lenght__text, .main-form-select__text{
-        margin-bottom: 5px;
-    }
-    .main-calc__form-input{
-        width: 95%;
-    }
-    .main-calc__form-select select{
-        width: 95%;
-    }
-    .main-calc__img{
-        width: 35%;
-        height: 700px;
-    }
-    .main-calc__img img{
-        width: 95%;
-        margin-top: 30px;
-    }
-    .main-cities__locations{
-        grid-template-columns: 1fr 1fr 1fr;
+    .main-personal-btns__item{
+        width: 100%;
     }
     .main-last__container{
         display: block;
@@ -1375,73 +1135,12 @@ body{
     .header-info__btn{
         grid-row: 1;
     }
-    .header-offer__advantages{
-        display: block;
-        margin-top: 290px;
-    }
-    .header-advantages__block{
-        margin-top: 30px;
-        height: 50px;
-        width: 100%;
-    }
-    .main-product__block{
-        width: 95%;
-        margin-left: 5px;
-    }
-    .main-works__testimonials{
-        width: 100%;
-        margin-bottom: 0;
-    }
-    .main-works__testimonials{
-        display: block;
-    }
-    .main-price__block-tabs ul{
+    .main-personal__form-container{
+        display: flex;
         flex-direction: column;
-        width: 100%;
     }
-    .main-block-tabs__item{
-        width: 100%;
-        padding-bottom: 15px;
-    }
-    .main-testimonials__button-first{
-        margin-bottom: 40px;
-    }
-    .table-head__element:nth-child(5){
-        display: none;
-    }
-    .table-head__element:nth-child(6){
-        display: none;
-    }
-    .table-head__element:nth-child(7){
-        display: none;
-    }
-    .table-body__element:nth-child(5){
-        display: none;
-    }
-    .table-body__element:nth-child(6){
-        display: none;
-    }
-    .table-body__element:nth-child(7){
-        display: none;
-    }
-    .main-calc__img{
-        display: none;
-    }
-    .main-calc__form{
-        width: 100%;
-    }
-    .main-calc__form-submit button{
-        width: 100%;
-        padding: 15px;
-    }
-    .main-calc__form-input{
-        width: 100%;
-    }
-    .main-calc__form-select select{
-        width: 100%;
-    }
-    .main-cities__locations{
-        grid-template-columns: 1fr 1fr;
+    .main-form__personal-info {
+        padding-left: 0px;
     }
     .main-last__calculate-text{
         width: 63%;
@@ -1467,9 +1166,6 @@ body{
         left: 30px;
         top: 100px;
         border-style: none;
-    }
-    .main-why__content{
-        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1501,13 +1197,7 @@ body{
     .header-offer__form-elements{
         width: 320px;
     }
-    .main-catalog__products{
-        display: flex;
-        flex-direction: column;
-    }
-    .main-product__block{
-        width: 97%;
-    }
+    
     .table-head__element:nth-child(4){
         display: none;
     }
@@ -1565,9 +1255,5 @@ body{
     .main-call__form-btn {
         margin-left: auto;
         margin-right: auto;
-    }
-    .main-why__content{
-        display: flex;
-        flex-direction: column;
     }
 }

@@ -554,6 +554,18 @@ body{
 .header-list__contacts{
     border-right: 1px solid #d6ccc1;
 }
+.main-links{
+    padding-top: 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.main-links a{
+    color: #ce1111;
+    padding-right: 5px;
+}
+.main-links span{
+    padding-left: 5px;
+}
 .main-price{
     margin-top: 30px;
 }
