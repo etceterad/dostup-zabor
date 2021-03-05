@@ -216,7 +216,7 @@ body{
     width: 107px;
     text-align: center;
 }
-.header-logo__text h2{
+.header-logo__text .logo__text{
     font-weight: 900;
     color: #000;
     font-size: 18px;
@@ -224,7 +224,7 @@ body{
     display: block;
     margin-top: .71429em;
 }
-.header-logo__text h2 span{
+.header-logo__text .logo__accent{
     color: #ce1111!important;
 }
 .header-top__info{
